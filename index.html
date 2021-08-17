@@ -2,36 +2,100 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_tv.css">
-    <link rel="stylesheet" href="css/style_pc.css">
-    <link rel="stylesheet" href="css/style_tablet.css">
-    <link rel="stylesheet" href="css/style_mobile.css">
+    <!-- Liens vers les feuilles de style CSS pour les différentes interfaces -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Version générale -->
+    <link rel="stylesheet" href="css/style_tv.css"> <!-- Pour résolution d'écran supérieure ou égale à 1200px (PC et écrans TV) -->
+    <link rel="stylesheet" href="css/style_pc.css"> <!-- Pour résolution d'écran comprise entre 992px et 1199px (PC portables) -->
+    <link rel="stylesheet" href="css/style_tablet.css"> <!-- Pour résolution d'écran comprise entre 768px et 991px (tablettes) -->
+    <link rel="stylesheet" href="css/style_mobile.css"> <!-- Pour résolution d'écran inférieure à 768px (smartphone) -->
+    <!-- Ajout du logo sur l'onglet navigateur du site -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo2dprod.png">
+    <!-- Liens vers la police d'écriture "Playfair Display" sur Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Script permettant d'utiliser la banque d'icônes de Font Awesome -->
+    <script src="https://kit.fontawesome.com/23c1a897ea.js" crossorigin="anonymous"></script>
     <title>2D Prod</title>
   </head>
 
   <body>
+    <!-- En-tête -->
     <header>
       <!-- Logo du site -->
-      <img src="images/logo.png" alt="Logo de l'assossiation 2D Prod">
+      <img src="images/logo2dprod.png" alt="Logo de l'assossiation 2D Prod">
       <!-- Barre de navigation -->
       <nav>
         <ul>
+          <!-- Lien vers la section "Accueil" -->
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="evenements.html">Evènements</a></li>
+          <!-- Lien vers la section "Services" -->
+          <li><a href="services.html">Services</a>
+            <!-- Menu déroulant de la section "Services" -->
+            <ul>
+              <li><a href="magie.html">Spectacle de Magie</a></li>
+              <li><a href="animations.html">Animations, Spectacles</a></li>
+              <li><a href="concerts.html">Concerts</a></li>
+            </ul>
+          </li>
+          <!-- Lien vers la section "Événements" -->
+          <li><a href="evenements.html">Événements</a>
+            <!-- Menu déroulant de la section "Événements" -->
+            <ul>
+              <li><a href="noel.html">Les Lueurs de Noël</a></li>
+              <li><a href="patissiers.html">Les P'tits Pâtissiers</a></li>
+              <li><a href="medieval.html">Marché Médiéval</a></li>
+            </ul>
+          </li>
+          <!-- Lien vers la section "Presse" -->
           <li><a href="presse.html">Presse</a></li>
+          <!-- Lien vers la section "Contact" -->
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="banniere_2dprod">
+        <a href="index.html">
+          <img src="images/banniere_2dprod.png" alt="Bannière des services de la 2D Prod">
+        </a>
+      </div>
     </header>
 
+    <!-- Corps du site -->
     <main>
-      
+      <div class="a_propos">
+        <div class="infos_2dprod">
+          <h2>Assiciation 2D Prod</h2>
+          <p>2D Prod est une association qui entreprends et s'associe pour du spectacle et de l'animation en tout genre.</p>
+        </div>
+        <div class="conteneur_diapo_accueil">
+          <div class="diapo_accueil">
+            <img src="images/2dprod.jpg" alt="Bannière de l'association">
+            <img src="images/2dprod_equipe01.jpg" alt="Photo de l'équipe 2D Prod">
+            <img src="images/magie15.jpg" alt="Spectacle du 'Banquet du Seigneur'">
+            <img src="images/magie01.jpg" alt="Spectacle du 'Banquet du Seigneur'">
+            <img src="images/cabaret07.jpg" alt="Photo du cabaret">
+            <img src="images/cabaret08.jpg" alt="Photo du cabaret">
+            <img src="images/concert06.jpg" alt="Concet en plein air">
+            <img src="images/concert07.jpg" alt="Concet en plein air">
+            <img src="images/karaoke04.jpg" alt="Préparatifs du karaoke">
+            <img src="images/karaoke05.jpg" alt="Soirée karaoke">
+            <img src="images/medieval03.jpg" alt="Marché médiéval 2018 à Beaumont Saint Cyr">
+            <img src="images/medieval14.jpg" alt="Marché médiéval 2018 à Beaumont Saint Cyr">
+            <img src="images/medieval09.jpg" alt="Visite de la chapelle de la Madeleine à Beaumont Saint Cyr">
+            <img src="images/medieval07.jpg" alt="Visite de la chapelle de la Madeleine à Beaumont Saint Cyr">
+            <img src="images/patissiers01.jpg" alt="Atelier des P'tits pâtissiers">
+            <img src="images/patissiers03.jpg" alt="Atelier des P'tits pâtissiers">
+          </div>
+        </div>
+      </div>
     </main>
 
+    <!-- Pied de page -->
     <footer>
-
+      <a href="http://www.facebook.com/sharer.php?u=https://dd-prod.jimdofree.com/&t=Association%202D%20Prod"><i class="fab fa-facebook-square x2"></i></a>
+      <a href="http://twitter.com/share?text=Association%202D%20Prod&url=https%3A%2F%2Fdd-prod.jimdofree.com%2F"><i class="fab fa-twitter-square x2"></i></a>
+      <a href="mailto.dd-prod@outlook.fr"><i class="fas fa-envelope-square x2"></i></a>
+      <a href="plan_site.html">Plan du site</a>
     </footer>
   </body>
 </html>
