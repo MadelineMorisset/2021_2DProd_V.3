@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Liens vers les feuilles de style CSS pour les différentes interfaces -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Version générale -->
+    <link rel="stylesheet" href="css/style_tv.css"> <!-- Pour résolution d'écran supérieure ou égale à 1200px (PC et écrans TV) -->
+    <link rel="stylesheet" href="css/style_pc.css"> <!-- Pour résolution d'écran comprise entre 992px et 1199px (PC portables) -->
+    <link rel="stylesheet" href="css/style_tablet.css"> <!-- Pour résolution d'écran comprise entre 768px et 991px (tablettes) -->
+    <link rel="stylesheet" href="css/style_mobile.css"> <!-- Pour résolution d'écran inférieure à 768px (smartphone) -->
+    <!-- Ajout du logo sur l'onglet navigateur du site -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo2dprod.png">
+    <!-- Liens vers la police d'écriture "Playfair Display" sur Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Script permettant d'utiliser la banque d'icônes de Font Awesome -->
+    <script src="https://kit.fontawesome.com/23c1a897ea.js" crossorigin="anonymous"></script>
+    <title>2D Prod</title>
+  </head>
+
+  <body>
+    <!-- En-tête -->
+    <header>
+      <!-- Logo du site -->
+      <img src="images/logo2dprod.png" alt="Logo de l'assossiation 2D Prod">
+      <!-- Barre de navigation -->
+      <nav>
+        <ul>
+          <!-- Lien vers la section "Accueil" -->
+          <li><a href="index.html">Accueil</a></li>
+          <!-- Lien vers la section "Services" -->
+          <li><a href="animations.html">Services</a>
+            <!-- Menu déroulant de la section "Services" -->
+            <ul>
+              <li><a href="animations.html">Animations, Spectacles</a></li>
+              <li><a href="concerts.html">Concerts</a></li>
+              <li><a href="location.html">Location de matériel</a></li>
+            </ul>
+          </li>
+          <!-- Lien vers la section "Événements" -->
+          <li><a href="evenements.html">Événements</a>
+            <!-- Menu déroulant de la section "Événements" -->
+            <ul>
+              <li><a href="noel.html">Les Lueurs de Noël</a></li>
+              <li><a href="patissiers.html">Les P'tits Pâtissiers</a></li>
+              <li><a href="medieval.html">Marché Médiéval</a></li>
+            </ul>
+          </li>
+          <!-- Lien vers la section "Presse" -->
+          <li><a href="presse.html">Presse</a></li>
+          <!-- Lien vers la section "Contact" -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="banniere_2dprod">
+        <a href="index.html">
+          <img src="images/banniere_2dprod.png" alt="Bannière des services de la 2D Prod">
+        </a>
+      </div>
+    </header>
+
+    <!-- Corps du site -->
+    <main>
+      <div class="services">
+        <!-- Liste des différents services -->
+        <div class="menuservices">
+          <ul>
+            <li><a href="animations.html">Animations, Spectacles</a></li>
+            <li><a href="concerts.html">Concerts</a></li>
+            <li><a href="location.html">Location de matériel</a></li>
+          </ul>
+        </div>
+        <div class="liste_animations_spectacles">
+          <h4>Animations</h4>
+          <ul>
+            <li><a href="#karaoke">Karaoké d'Halloween</a></li>
+            <li><a href="#bal">Bal de Lycée</a></li>
+          </ul>
+          <h4>Spectacles</h4>
+          <ul>
+            <li><a href="#cabaret">Cabaret</a></li>
+            <li><a href="#magie">Le Banquet du Seigneur (Spectacle de Magie)</a></li>
+            <li><a href="#spectacles_divers">Spectacles divers</a></li>
+          </ul>
+        </div>
+
+        <!-- Divisions des services d'animation -->
+        <div class="conteneur_animations">
+          <h2>Animations</h2>
+
+          <!-- Division Karaoke d'Halloween -->
+          <div id="karaoke">
+            <h3>Karaoké d'Halloween</h3>
+            <div class="diapo_karaoke">
+              <img src="images/karaoke01.jpg" alt="Photo du karaoké d'Halloween">
+              <img src="images/karaoke02.jpg" alt="Photo du karaoké d'Halloween">
+              <img src="images/karaoke03.jpg" alt="Photo du karaoké d'Halloween">
+              <img src="images/karaoke04.jpg" alt="Photo du karaoké d'Halloween">
+              <img src="images/karaoke05.jpg" alt="Photo du karaoké d'Halloween">
+              <img src="images/karaoke06.jpg" alt="Photo du karaoké d'Halloween">
+            </div>
+          </div>
+
+          <!-- Division Bal de Lycée -->
+          <div id="bal">
+            <h3>Bal de Lycée</h3>
+            <p>Bal du Lycée Marcelin Berthelot (86100 Châtellerault) :</p>
+            <div class="diapo_bal">
+              <img src="images/lycee_bal01.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal02.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal03.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal04.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal05.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal06.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal07.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal08.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal09.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal10.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal11.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal12.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal13.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+              <img src="images/lycee_bal14.jpg" alt="Photo du bal du Lycée Marcelin Berthelot (86100 Châtellerault)">
+            </div>
+          </div>
+        </div>
+
+        <!-- Division Cabaret -->
+        <div class="conteneur_spectacles">
+          <div id="cabaret">
+            <h3>Le Cabaret</h3>
+            <div class="diapo_cabaret">
+              <img src="images/cabaret_equipe.jpg" alt="Photo de l'équipe du cabaret">
+              <img src="images/2dprod_equipe03.jpg" alt="Préparatifs du cabaret">
+              <img src="images/2dprod_equipe04.jpg" alt="Préparatifs du cabaret">
+              <img src="images/2dprod_equipe05.jpg" alt="Préparatifs du cabaret">
+              <img src="images/sallefete_bmt01.jpg" alt="Préparatifs du cabaret">
+              <img src="images/sallefete_bmt02.jpg" alt="Préparatifs du cabaret">
+              <img src="images/cabaret01.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret02.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret03.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret04.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret05.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret06.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret07.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret08.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret09.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret10.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret11.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret12.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret13.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret14.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret15.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret16.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret17.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret18.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret19.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret20.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret21.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret22.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret23.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret24.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret25.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret26.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret27.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret28.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret29.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret30.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret31.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret32.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret33.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret34.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret35.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret36.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret37.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret38.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret39.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret40.jpg" alt="Photo du cabaret">
+              <img src="images/cabaret41.jpg" alt="Photo du cabaret">
+            </div>
+          </div>
+
+          <!-- Division Spectacle de Magie -->
+          <div id="magie">
+            <h3>Le Banquet du Seigneur (Spectacle de Magie)</h3>
+            <div class="diapo_magie">
+              <img src="images/magie_logo.jpg" alt=" Logo du spectacle du 'Banquet du Seigneur">
+              <img src="images/magie_equipe.jpg" alt="Équipe du 'Banquet du Seigneur">
+              <img src="images/magie01.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie02.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie03.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie04.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie05.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie06.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie07.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie08.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie09.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie10.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie11.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie12.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie13.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie14.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie15.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie16.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie17.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie18.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie19.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie20.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie21.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie22.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie23.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie24.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie25.jpg" alt="Spectacle du 'Banquet du Seigneur">
+              <img src="images/magie26.jpg" alt="Spectacle du 'Banquet du Seigneur">
+            </div>
+          </div>
+
+          <!-- Division Spectacles divers -->
+          <div id="spectacles_divers">
+            <h3>Spectacles divers</h3>
+            <div class="diapo_spectaclesdivers">
+              <img src="images/sallefete_bmt03.jpg" alt="Préparation de la salle des fête pour le spectacle de fin d'année Beaumont-St-Cyr (86490)">
+              <img src="images/sallefete_bmt04.jpg" alt="Préparation de la salle des fête pour le spectacle de fin d'année Beaumont-St-Cyr (86490)">
+              <img src="images/spectacle_danse.jpg" alt="Spectacle de fin d'année de l'école primaire et maternelle de Beaumont-St-Cyr (86490)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="animations.html" class="button" title="Haut de page"><i class="fas fa-arrow-up"></i></a>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      <div class="partager">
+        <h4>Partager :</h4>
+        <a href="http://www.facebook.com/sharer.php?u=https://dd-prod.jimdofree.com/&t=Association%202D%20Prod"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="http://twitter.com/share?text=Association%202D%20Prod&url=https%3A%2F%2Fdd-prod.jimdofree.com%2F"><i class="fab fa-twitter-square fa-2x"></i></a>
+      </div>
+      <div class="contacter">
+        <h4>Nous contacter :</h4>
+        <p><strong>Siège: </strong>25 place du 11 Novembre, 86490 Beaumont Saint-Cyr</p>
+        <p><i class="fas fa-phone"></i> 07 81 73 76 28</p>
+        <a href="mailto.dd-prod@outlook.fr" title="E-Mail"><i class="fas fa-envelope-square fa-2x"></i></a>
+        <a href="contact.html" title="Formulaire de contact"><i class="fas fa-file-contract fa-2x"></i></a>
+      </div>
+      <div class="plansite">
+        <a href="plan_site.html">Plan du site</a>
+      </div>
+    </footer>
+  </body>
+</html>
